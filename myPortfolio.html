@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylingPortfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class=".header">
+        <h1 class="logo">Portfolio</h1>
+        <i class='bx bx-menu' id="menu"></i>
+        <i class='bx bx-x' id="menu"></i>
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello there</h3>
+            <h1>I am Tommy Mcnen</h1>
+            <h2>And am a <span class="multiple"></span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam quaerat aliquam minima tempore 
+            optio amet voluptate dignissimos,assumenda molestiae aperiam sed sunt inventore quisquam voluptatem 
+            minus magnam libero voluptas.</p>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="button">Download CV</a>
+        </div>
+        <div class="image">
+            <img src="./images/IMG_20220528_141327_3-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./images/IMG_20220528_141327_3-removebg-preview.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>FrontEnd Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo expedita debitis libero eum. Doloremque
+            voluptatum minus dolores harum laborum, doloribus quidem ratione expedita, itaque tempora quae dignissimos
+            aperiam ipsam maxime?
+            </p>
+            <a href="#" class="button">Read More</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="service">
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3> Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem sit facere hic nisi eligendi quas
+                harum veniam, aut a provident beatae. Id quod optio cupiditate obcaecati incidunt cum animi nihil!
+                </p>
+                <a href="#" class="button">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-podcast'></i>
+                <h3> Telecommunication Engineering</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem sit facere hic nisi eligendi quas
+                harum veniam, aut a provident beatae. Id quod optio cupiditate obcaecati incidunt cum animi nihil!
+                </p>
+                <a href="#" class="button">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+            <div class="project">
+                <div class="project-box">
+                    <img src="./images/iphone14.jpg" alt="">
+                    <div class="description" style="color:blue">
+                        <h4>web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat officia nostrum ipsa eveniet animi 
+                            magnam asperiores recusandae nobis suscipit harum. Suscipit dignissimos quas placeat magnam itaque 
+                            saepe rem facilis consequuntur.
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+
+                </div>
+                <div class="project-box">
+                    <img src="./images/sky.jpg" alt="">
+                    <div class="description">
+                        <h4>web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat officia nostrum ipsa eveniet animi 
+                            magnam asperiores recusandae nobis suscipit harum. Suscipit dignissimos quas placeat magnam itaque 
+                            saepe rem facilis consequuntur.
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+
+                </div>
+                <div class="project-box">
+                    <img src="./images/pexels-cottonbro-studio-4009626.jpg" alt="" class="unique">
+                    <div class="description">
+                        <h4>web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat officia nostrum ipsa eveniet animi 
+                            magnam asperiores recusandae nobis suscipit harum. Suscipit dignissimos quas placeat magnam itaque 
+                            saepe rem facilis consequuntur.
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+
+                </div>
+                
+            </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email address">
+            </div>
+            <div class="input">
+                <input type="number" placeholder="Mobile Number">
+                <input type="taxt" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="button">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="text">
+            <p>Copyright & copy;2023 by Mcnen | All Rights Reserved.</p>
+        </div>
+        <div class="return-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="myPortfolio.js"></script>
+</body>
+</html>
